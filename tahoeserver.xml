@@ -24,7 +24,7 @@
         
         
         <method_context>
-            <method_credential user="tahoes" group="tahoes"/>
+            <method_credential user="root" group="tahoes"/>
         </method_context>
 
         <exec_method type="method" name="start" exec="/opt/local/bin/tahoe start %{config_file}" timeout_seconds="60"/>
